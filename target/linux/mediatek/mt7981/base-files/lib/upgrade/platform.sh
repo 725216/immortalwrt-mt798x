@@ -206,6 +206,7 @@ platform_do_upgrade() {
 	cmcc,rax3000m |\
 	cmcc,xr30 |\
 	h3c,nx30pro |\
+ 	zbtlink,zbt-z8102ax |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
 	routerich,ax3000 |\
