@@ -32,6 +32,9 @@ livinet,zr-3020)
 	ucidef_set_led_netdev "wlan2g" "WLAN2G" "blue:wlan2g" "ra0" "link"
 	ucidef_set_led_netdev "wlan5g" "WLAN5G" "blue:wlan5g" "rax0" "link"
 	;;
+zbtlink,zbt-z8102ax)
+	ucidef_set_led_netdev "wan" "wan" "green:wan" "eth1" "link tx rx"
+	;;
 xiaomi,mi-router-wr30u*)
 	ucidef_set_led_netdev "network" "NETWORK" "blue:network" "eth1"
 	;;
