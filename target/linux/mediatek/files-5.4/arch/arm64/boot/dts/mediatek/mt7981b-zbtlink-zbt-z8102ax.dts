@@ -8,14 +8,6 @@
 	model = "Zbtlink ZBT-Z8102AX";
 	compatible = "zbtlink,zbt-z8102ax", "mediatek,mt7981";
 
-	aliases {
-		serial0 = &uart0;
-		led-boot = &led_status_green;
-		led-failsafe = &led_status_red;
-		led-running = &led_status_green;
-		led-upgrade = &led_status_green;
-		label-mac-device = &gmac0;
-	};
 
 	chosen {
 		stdout-path = "serial0:115200n8";
